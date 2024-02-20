@@ -21,13 +21,14 @@ git config --global user.email johndoe@example.com
 ### Github
 This workshop will use Github, so make you you have a account. If you don't have one, you can create one using the sign up button here: [Github](https://github.com/)
 
-## Step 1 - Fork a repository
+## Creating your first commit
+### Step 1 - Fork a repository
 If you've created your Github account, and you are logged in, press the fork button in the top right corner of this repository.
 ![fork repo](./images/fork.png)
 
 Make sure the owner is listed as your own account and leave all options as is. Once you've forked the repository, you should be able to find it under your repositories. Open that repository in Github
 
-## Step 2 - Clone your newly created repository
+### Step 2 - Clone your newly created repository
 Now that your repository is open, you should see the same files as there were in the repository that you forked from. Now we will clone this repo to our device.
 
 Start by copying the git url. You can find this if you open the green code button, and under HTTPS there should be a link you can copy.
@@ -40,7 +41,7 @@ git clone https://github.com/<your github name>/git-workshop.git
 
 This will clone your repo from github to your local machine in a folder with the same name as the repository.
 
-## Step 3 - Make your first commit
+### Step 3 - Make your first commit
 - [x] Clone the repository
 - [ ] Change the H1 tag to something of your choosing
 - [ ] Stage the change
@@ -52,26 +53,25 @@ This will clone your repo from github to your local machine in a folder with the
 
 > Note: If at any point you are unsure of the files you have staged for a commit, you can use `git status`. This command tells you on which branch you are, as well as which files have been modified/staged, how many commits have been done, etc...
 
-### Extra challenges
+#### Extra challenges
 - [ ] Add more sources to the `changePlaceholder` function in `app.js`
 - [ ] Add deletion of the placeholder element when the `Delete placeholder` button is clicked
 
-## Step 3 - Create branches
+## Branches
+### Step 4 - Create and switch to branch
+Create a branch called `development`. Then switch to this branch. You can verify whether this succeeded when you use `git status` in the terminal.
 
 
-## Step 4 - Switch between branches
+
+### Step 6 - Merging branches
+
+#### Updating branches
+
+#### Resolving merge conflicts
 
 
-## Step 5 - Updating branches
+### Step 8 - Branch protection
 
-
-## Step 6 - Merging branches
-
-
-## Step 7 - Resolving merge conflicts
-
-
-## Step 8 - Branch protection
 
 
 ## Resources
