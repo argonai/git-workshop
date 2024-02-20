@@ -72,13 +72,11 @@ This will clone your repo from github to your local machine in a folder with the
 
 > **Note:** Not every branch needs to be in Github, if you're experimenting, then feel free to not push to Github
 
-
-
-
-
-
-
-### Step 6 - Merging branches
+### Step 5 - Merging branches
+- [ ] Make sure you are on the `development` branch
+- [ ] Create a branch called `hotfix-hobbies` 
+- [ ] Make a change to the `hobbies.md` file and commit
+- [ ] Go back to the `development branch`
 
 #### Updating branches
 
