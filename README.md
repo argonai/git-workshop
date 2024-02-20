@@ -16,7 +16,7 @@ git config --global user.name "John Doe"
 git config --global user.email johndoe@example.com
 ```
 
-> Note: replace John Doe and the email with your own name and email (preferably the email that you use for your github account)
+> **Note:** replace John Doe and the email with your own name and email (preferably the email that you use for your github account)
 
 ### Github
 This workshop will use Github, so make you you have a account. If you don't have one, you can create one using the sign up button here: [Github](https://github.com/)
@@ -89,7 +89,9 @@ Sometimes a branch that we are working on is behind the branch that it originall
 - [ ] Merge `development` into `hotfix-hobbies`
 
 #### Resolving merge conflicts
-Merging can be a very powerful tool and GIT does a lot of things for us. However, sometimes Git cannot figure out how to merge certain changes. This is called a merge conflict and these can be a bit troublesome to figure out how to fix. Having a good branching strategy can alleviate a lot of these problems to begin with. However, now we will intentionally cause a merge conflict, and look at how to fix this.
+Merging can be a very powerful tool and GIT does a lot of things for us. However, sometimes Git cannot figure out how to merge certain changes. This is called a merge conflict and these can be a bit troublesome to figure out how to fix. These issues tend to be more common when you are working as a team.  
+
+Having a good branching strategy can alleviate a lot of these problems to begin with. However, now we will intentionally cause a merge conflict, and look at how to fix this.
 
 - [ ] On the `development` branch, change the first line of the `hobbies.md` file to the following and commit this:
 ```md
@@ -102,13 +104,13 @@ Merging can be a very powerful tool and GIT does a lot of things for us. However
 - [ ] Change back to the `development` branch and merge the `hotfix-hobbies` branch into it.
 
 
-### Step 8 - Branch protection
+### Good to know - Branch protection
 
 
 
 ## Resources
 [Oh shit, GIT!?!](https://ohshitgit.com/)  
-[GIT.WTF!?!](https://git.wtf/)
+[GIT.WTF!?!](https://git.wtf/)  
 [Git Book by Scott Chacon](https://git-scm.com/book/en/v2)
 
 https://jonathanmh.com/p/how-to-create-a-git-merge-conflict/
