@@ -105,12 +105,20 @@ Having a good branching strategy can alleviate a lot of these problems to begin 
 
 
 ### Good to know - Branch protection
+Branch protection is a tool to set conditions on when you are able to merge. These rules are not native to git and are only common to Git hosting platforms (think Github, Bitbucket, Gitlab).
 
+On Github, you can find these under the Settings of your repository and then going to branches
 
+As you can see, there are a lot of options. The most important things in the Branch name pattern. This should contain the name of the branch that you want to protect.
+![branch protection options](./images/branchprotecc.png)
+
+The most popular option (and one you should probably implement for your projects) is `Require a pull request before merging`. 
+This way, you can only merge through the Github Desktop app or through Github itself.  
+That brings the advantage that people can't make your `main` branch unstable without it having been reviewed by someone else
+
+![alt text](./images/pr.png)
 
 ## Resources
 [Oh shit, GIT!?!](https://ohshitgit.com/)  
 [GIT.WTF!?!](https://git.wtf/)  
 [Git Book by Scott Chacon](https://git-scm.com/book/en/v2)
-
-https://jonathanmh.com/p/how-to-create-a-git-merge-conflict/
