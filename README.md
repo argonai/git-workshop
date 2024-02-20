@@ -51,7 +51,7 @@ This will clone your repo from github to your local machine in a folder with the
 - [ ] Commit the change
 - [ ] Push the changes to Github
 
-> Note: If at any point you are unsure of the files you have staged for a commit, you can use `git status`. This command tells you on which branch you are, as well as which files have been modified/staged, how many commits have been done, etc...
+> **Note:** If at any point you are unsure of the files you have staged for a commit, you can use `git status`. This command tells you on which branch you are, as well as which files have been modified/staged, how many commits have been done, etc...
 
 #### Extra challenges
 - [ ] Add more sources to the `changePlaceholder` function in `app.js`
@@ -63,6 +63,16 @@ This will clone your repo from github to your local machine in a folder with the
 - [ ] Switch to the `development` branch
 
 >  You can verify whether this succeeded when you use `git status` in the terminal.
+
+- [ ] Make a small change to the `hobbies.md` file
+- [ ] Commit the change
+- [ ] Push to Github
+
+> You will get a fatal error saying `fatal: The current branch development has no upstream branch`. This is normal when the branch you have created does not exist on Github. To fix this, run `git push --set-upstream origin <name of branch>`. You only need to run this the first time you are pushing to the new branch.
+
+> **Note:** Not every branch needs to be in Github, if you're experimenting, then feel free to not push to Github
+
+
 
 
 
