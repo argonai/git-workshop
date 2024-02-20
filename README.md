@@ -8,3 +8,19 @@ git -v
 
 This workshop will use Github, so make you you have a account. If you don't have one, you can create one using the sign up button here: [Github](https://github.com/)
 
+## Step 1 - Clone a repository
+
+
+## Step 2 - Make your first commit
+
+
+## Step 3 - Create branches
+
+
+## Step 4 - Updating branches
+
+
+## Step 5 - Merging branches
+
+
+## Step 6 - Resolving merge conflicts
