@@ -17,18 +17,22 @@ This workshop will use Github, so make you you have a account. If you don't have
 ## Step 3 - Create branches
 
 
-## Step 4 - Updating branches
+## Step 4 - Switch between branches
 
 
-## Step 5 - Merging branches
+## Step 5 - Updating branches
 
 
-## Step 6 - Resolving merge conflicts
+## Step 6 - Merging branches
 
 
-## Step 7 - Branch protection
+## Step 7 - Resolving merge conflicts
+
+
+## Step 8 - Branch protection
 
 
 ## Resources
-
+[Oh shit, GIT!?!](https://ohshitgit.com/)
+[GIT.WTF!?!](https://git.wtf/)
 
