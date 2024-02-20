@@ -59,7 +59,12 @@ This will clone your repo from github to your local machine in a folder with the
 
 ## Branches
 ### Step 4 - Create and switch to branch
-Create a branch called `development`. Then switch to this branch. You can verify whether this succeeded when you use `git status` in the terminal.
+- [ ] Create a branch called `development`
+- [ ] Switch to the `development` branch
+
+>  You can verify whether this succeeded when you use `git status` in the terminal.
+
+
 
 
 
