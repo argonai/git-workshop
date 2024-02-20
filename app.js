@@ -20,6 +20,7 @@ window.onload = function() {
   }
 
   changePlaceholderBtn.addEventListener('click', changePlaceholder)
+
   function changePlaceholder() {
     // https://loremipsum.io/21-of-the-best-placeholder-image-generators/
     const randomX = getRandomArbitrary(200, 600)
@@ -42,8 +43,7 @@ window.onload = function() {
   })
 
   function deletePlaceholder() {
-    const placeholder = document.getElementById('placeholder')
-    placeholder.remove()
+    // TODO: Remove the placeholder element
   }
 
   // Helper functions
@@ -62,8 +62,4 @@ window.onload = function() {
   function getRandomStringFromArray(stringArray) {
     return stringArray[Math.floor(Math.random() * stringArray.length)]
   }
-}
-
-window.onclose = function() {
-
 }
