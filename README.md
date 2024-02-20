@@ -58,6 +58,8 @@ This will clone your repo from github to your local machine in a folder with the
 - [ ] Add deletion of the placeholder element when the `Delete placeholder` button is clicked
 
 ## Branches
+Branches are an integral part to working with git. Not only do they allowed you to experiment with features, but in some cases, workflows can be set to do specific actions when something happens with said branch.
+
 ### Step 4 - Create and switch to branch
 - [ ] Create a branch called `development`
 - [ ] Switch to the `development` branch
@@ -80,11 +82,24 @@ This will clone your repo from github to your local machine in a folder with the
 - [ ] Use the merge command to merge `hotfix-hobbies` into development
 
 #### Updating branches
-- [ ] Make a change in the `hobbies.md` file and commit this
+Sometimes a branch that we are working on is behind the branch that it originally derived from. In this case, we can merge those changes into our local branch.
+
+- [ ] On the `development` branch, make a change in the `hobbies.md` file and commit this
 - [ ] Change to the `hotfix-hobbies` branch
-- [ ] Merge `development` into `hotfix-hobbies` 
+- [ ] Merge `development` into `hotfix-hobbies`
 
 #### Resolving merge conflicts
+Merging can be a very powerful tool and GIT does a lot of things for us. However, sometimes Git cannot figure out how to merge certain changes. This is called a merge conflict and these can be a bit troublesome to figure out how to fix. Having a good branching strategy can alleviate a lot of these problems to begin with. However, now we will intentionally cause a merge conflict, and look at how to fix this.
+
+- [ ] On the `development` branch, change the first line of the `hobbies.md` file to the following and commit this:
+```md
+# A title
+```
+- [ ] On the `hotfix-hobbies` branch, change the first line of the `hobbies.md` file to the following and commit this:
+```md
+# My Hobbies
+```
+- [ ] Change back to the `development` branch and merge the `hotfix-hobbies` branch into it.
 
 
 ### Step 8 - Branch protection
