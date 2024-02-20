@@ -1,0 +1,13 @@
+h1, h2 {
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 350%;
+  text-transform: uppercase;
+  
+}
+
+h2 {
+  font-size: 250%;
+}
