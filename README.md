@@ -21,6 +21,10 @@ git config --global user.email johndoe@example.com
 ### Github
 This workshop will use Github, so make you you have a account. If you don't have one, you can create one using the sign up button here: [Github](https://github.com/)
 
+### A Code editor
+For the purposes of this workshop, we are going to use [VSCode](https://code.visualstudio.com/). If you use this editor, also install the live server extension by Ritwick Dey
+
+
 ## Creating your first commit
 ### Step 1 - Fork a repository
 If you've created your Github account, and you are logged in, press the fork button in the top right corner of this repository.
