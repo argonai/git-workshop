@@ -27,7 +27,7 @@ For the purposes of this workshop, we are going to use [VSCode](https://code.vis
 
 ## Creating your first commit
 ### Step 1 - Fork a repository
-If you've created your Github account, and you are logged in, press the fork button in the top right corner of this repository.
+If you've created your Github account, and you are logged in, press the fork button in the top right corner of [this repository](https://github.com/BennyDeBock/git-workshop).
 ![fork repo](./images/fork.png)
 
 Make sure the owner is listed as your own account and leave all options as is. Once you've forked the repository, you should be able to find it under your repositories. Open that repository in Github
