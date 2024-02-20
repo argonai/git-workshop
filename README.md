@@ -52,7 +52,7 @@ This will clone your repo from github to your local machine in a folder with the
 
 > Note: If at any point you are unsure of the files you have staged for a commit, you can use `git status`. This command tells you on which branch you are, as well as which files have been modified/staged, how many commits have been done, etc...
 
-### Extra challenge
+### Extra challenges
 - [ ] Add more sources to the `changePlaceholder` function in `app.js`
 - [ ] Add deletion of the placeholder element when the `Delete placeholder` button is clicked
 
