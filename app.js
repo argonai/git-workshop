@@ -25,10 +25,13 @@ window.onload = function() {
     const randomX = getRandomArbitrary(200, 600)
     const randomY = getRandomArbitrary(200, 600)
     
-    const sources = [`https://placehold.co/${randomX}x${randomY}`]
+    const sources = [
+      `https://placehold.co/${randomX}x${randomY}`,
+      `https://placebeard.it/${randomX}x${randomY}`
+    ]
 
     const placeholder = document.getElementById('placeholder')
-    placeholder.src = sources[0]
+    placeholder.src = getRandomStringFromArray(sources)
   }
 
   removePlaceholderBtn.addEventListener('click', () => {
@@ -49,6 +52,15 @@ window.onload = function() {
     const minCeiled = Math.ceil(min);
     const maxFloored = Math.floor(max);
     return Math.floor(Math.random() * (maxFloored - minCeiled) + minCeiled);
+  }
+
+  /**
+   * 
+   * @param {Array<string>} stringArray The original array
+   * @returns Returns a random string from a given string array
+   */
+  function getRandomStringFromArray(stringArray) {
+    return stringArray[Math.floor(Math.random() * stringArray.length)]
   }
 }
 
