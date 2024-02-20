@@ -24,3 +24,11 @@ This workshop will use Github, so make you you have a account. If you don't have
 
 
 ## Step 6 - Resolving merge conflicts
+
+
+## Step 7 - Branch protection
+
+
+## Resources
+
+
