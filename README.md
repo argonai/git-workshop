@@ -80,6 +80,9 @@ This will clone your repo from github to your local machine in a folder with the
 - [ ] Use the merge command to merge `hotfix-hobbies` into development
 
 #### Updating branches
+- [ ] Make a change in the `hobbies.md` file and commit this
+- [ ] Change to the `hotfix-hobbies` branch
+- [ ] Merge `development` into `hotfix-hobbies` 
 
 #### Resolving merge conflicts
 
