@@ -79,11 +79,11 @@ Branches are an integral part to working with git. Not only do they allowed you 
 > **Note:** Not every branch needs to be in Github, if you're experimenting, then feel free to not push to Github
 
 ### Step 5 - Merging branches
-- [ ] Make sure you are on the `development` branch
-- [ ] Create a branch called `hotfix-hobbies` 
-- [ ] Make a change to the `hobbies.md` file and commit
-- [ ] Go back to the `development branch`
-- [ ] Use the merge command to merge `hotfix-hobbies` into development
+- [x] Make sure you are on the `development` branch
+- [x] Create a branch called `hotfix-hobbies` 
+- [x] Make a change to the `hobbies.md` file and commit
+- [x] Go back to the `development branch`
+- [x] Use the merge command to merge `hotfix-hobbies` into development
 
 #### Updating branches
 Sometimes a branch that we are working on is behind the branch that it originally derived from. In this case, we can merge those changes into our local branch.
