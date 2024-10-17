@@ -65,14 +65,14 @@ This will clone your repo from github to your local machine in a folder with the
 Branches are an integral part to working with git. Not only do they allowed you to experiment with features, but in some cases, workflows can be set to do specific actions when something happens with said branch.
 
 ### Step 4 - Create and switch to branch
-- [ ] Create a branch called `development`
-- [ ] Switch to the `development` branch
+- [x] Create a branch called `development`
+- [x] Switch to the `development` branch
 
 >  You can verify whether this succeeded when you use `git status` in the terminal.
 
-- [ ] Make a small change to the `hobbies.md` file
-- [ ] Commit the change
-- [ ] Push to Github
+- [x] Make a small change to the `hobbies.md` file
+- [x] Commit the change
+- [x] Push to Github
 
 > You will get a fatal error saying `fatal: The current branch development has no upstream branch`. This is normal when the branch you have created does not exist on Github. To fix this, run `git push --set-upstream origin <name of branch>`. You only need to run this the first time you are pushing to the new branch.
 
